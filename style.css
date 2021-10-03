@@ -112,6 +112,7 @@ nav a:hover {
 
 /* bagian konten */
 .konten {
+    color: rgb(41, 41, 41);
     flex-direction: column;
     background-color: #e7e6e6;
     flex: 75%;
@@ -126,6 +127,40 @@ nav a:hover {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     background: rgba(255, 255, 255);
 }
+
+/* bagian artikel atau isi konten */
+.konten1 {
+    color: rgb(41, 41, 41);
+    height: 100%;
+    flex-direction: column;
+    background-color: #e7e6e6;
+    flex: 75%;
+}
+
+.konten1 img {
+    margin: 20px auto;
+    border-radius: 5px;
+    height: 300px;
+    width: 900px;
+    display: block;
+    object-fit: cover;
+}
+
+.textkon {
+    margin: 0px 50px 0px 50px;
+    /* background: #000; */
+}
+
+.textkon h1 {
+    font-size: 45px;
+    text-align: left;
+}
+
+.textkon p {
+    font-size: 20px;
+    text-align: left;
+}
+
 
 .boimg {
     top: 30px;
@@ -303,9 +338,6 @@ nav a:hover {
     margin: 5px 5px 5px 15px;
 }
 
-
-
-
 #footer a {
 
     text-align: left;
@@ -317,7 +349,6 @@ nav a:hover {
 #footer a:hover {
     color: thistle;
 }
-
 
 
 /* laptop */
@@ -342,6 +373,20 @@ nav a:hover {
         font-size: 30px;
     }
 
+    .konten1 img {
+        height: 300px;
+        width: 850px;
+        transition: 0.7s;
+    }
+
+    .textkon h1 {
+        font-size: 40px;
+        transition: 0.7s;
+    }
+
+    #footer .judul {
+        transition: 0.5s;
+    }
 }
 
 /* tablate */
@@ -387,7 +432,34 @@ nav a:hover {
         font-size: 38px;
         transition: 0.5s;
     }
+
+    .konten1 img {
+        height: 250px;
+        width: 580px;
+        transition: 0.7s;
+    }
+
+    .textkon h1 {
+        font-size: 35px;
+
+    }
+
+    .textkon p {
+        font-size: 17px;
+
+    }
+
+    #footer .judul {
+        font-size: 20px;
+        width: 200px;
+        transition: 0.5s;
+    }
+
+    #footer a {
+        font-size: 15px;
+    }
 }
+
 
 /* Ponsel */
 @media screen and (max-width:600px) {
@@ -423,4 +495,19 @@ nav a:hover {
         font-size: 28px;
     }
 
+    .konten1 img {
+        height: 200px;
+        width: 450px;
+        transition: 0.7s;
+    }
+
+    .textkon h1 {
+        font-size: 25px;
+
+    }
+
+    .textkon p {
+        font-size: 15px;
+
+    }
 }
